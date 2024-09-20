@@ -121,6 +121,9 @@
     </div>
 </section>
 
+<section class="blog-listing-section section-gaps">
+    <div class="container"></div>
+</section>
 
 <!--Footer Php-->
 <?php include "footer.php"?>
