@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --primary-fonts: "Inter", sans-serif;
+    --title-fonts: var(--primary-fonts);
+    --primary-color: #AF1D21;
+    --dark-bg: #05060F;
+    --title-text: #05060F;
+    --body-text: #2D2D2D; 
+    --light-gray: #10332F1A;
+}
+
+body{
+    font-family: var(--primary-fonts);
+    color: var(--body-text);
+    line-height: 1.4;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--title-fonts);
+    color: var(--title-text);
+    line-height: 1.2;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-primary{
+    background-color: var(--primary-color) !important;
+}
+
+.list-none{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a,strong,span{
+    display: inline-block;
+}
+
+.container{
+    max-width: 1340px;
+    padding: 0 20px;
+}
+.section-gaps{
+    padding: 80px 0;
+}
+/*Main title CSS*/
+
+.main-title h1.title{
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/*End Main Title CSS*/
+
+/*Primary Btn CSS*/
+
+.primary-btn{
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+/*End Primary btn CSS*/
+
+/*Header CSS*/
+
+.site-header{
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px 0px #0000001A;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+.site-logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.primary-menu{
+    align-items: center;
+    gap: 20px;
+}
+
+/*Header Search*/
+.header-search .search-field{
+    display: none;
+}
+
+
+/*End header CSS*/
+
+/*Main Banner CSS*/
+
+.main-banenr-section {
+    padding: 100px 0 80px;
+}
+.main-banenr-section .banner-inner .row{
+    min-height: calc(100vh - 82px);
+}
+.banner-content{
+    padding: 60px;
+}
+
+.banner-category-list ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+.banner-category-list ul li:nth-child(3n + 1){
+    position: relative;
+    top: 50px;
+}
+.banner-category-list ul li:nth-child(3n + 2){
+    position: relative;
+    top: 0px;
+}
+.banner-category-list ul li:nth-child(3n + 3){
+    position: relative;
+    top: 80px;
+}
+.category-item a{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+    transition: all 0.2s ease;
+    background-color: #ffffff;
+}
+.category-item a:hover{
+    transform: translateY(-2px);
+    box-shadow: 7px 6px 20px 7px #0000001A;
+}
+.category-item a:active{
+    transform: translateY(0);
+    box-shadow: 0px 0px 20px 0px #0000001A;
+}
+/*End Main Banner CSS*/
