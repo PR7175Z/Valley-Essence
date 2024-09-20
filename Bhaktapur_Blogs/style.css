@@ -123,7 +123,9 @@ a,strong,span{
 .banner-content{
     padding: 60px;
 }
-
+.banner-category-list{
+    padding-left: 40px;
+}
 .banner-category-list ul{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -131,11 +133,11 @@ a,strong,span{
 }
 .banner-category-list ul li:nth-child(3n + 1){
     position: relative;
-    top: 50px;
+    top: 20px;
 }
 .banner-category-list ul li:nth-child(3n + 2){
     position: relative;
-    top: 0px;
+    top: -30px;
 }
 .banner-category-list ul li:nth-child(3n + 3){
     position: relative;

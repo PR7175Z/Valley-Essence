@@ -5,7 +5,7 @@
     <div class="container">
         <div class="banner-inner">
             <div class="row align-items-center">
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="banner-content">
                         <div class="main-title">
                             <h1 class="title">Discover the best experience</h1>
@@ -14,7 +14,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="banner-category-list">
                         <ul class="list-none ps-0 mb-0">
                             <li class="category-item">
