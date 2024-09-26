@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.15">
+  <diagram name="Page-1" id="8ZmRCfsiZ_w5mL1_OWV6">
+    <mxGraphModel dx="583" dy="290" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="201" y="40" width="640" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="E5UF3V_XAKviFp6ES0OQ-19">
+          <mxGeometry width="640" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.007;exitY=0.175;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.999;entryY=0.158;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="E5UF3V_XAKviFp6ES0OQ-19" target="E5UF3V_XAKviFp6ES0OQ-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="39.400000000000006" as="sourcePoint" />
+            <mxPoint x="638.0799999999999" y="37.00000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.126;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.124;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="E5UF3V_XAKviFp6ES0OQ-19" source="E5UF3V_XAKviFp6ES0OQ-10" target="E5UF3V_XAKviFp6ES0OQ-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="120" as="sourcePoint" />
+            <mxPoint x="100" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.126;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.124;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="E5UF3V_XAKviFp6ES0OQ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="157" y="239" as="sourcePoint" />
+            <mxPoint x="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.126;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.124;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="E5UF3V_XAKviFp6ES0OQ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="238" y="239" as="sourcePoint" />
+            <mxPoint x="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0.126;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.124;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="E5UF3V_XAKviFp6ES0OQ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319" y="239" as="sourcePoint" />
+            <mxPoint x="321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0.126;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.124;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="E5UF3V_XAKviFp6ES0OQ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="239" as="sourcePoint" />
+            <mxPoint x="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0.126;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.124;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="E5UF3V_XAKviFp6ES0OQ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="479" y="239" as="sourcePoint" />
+            <mxPoint x="481" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.126;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.124;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="E5UF3V_XAKviFp6ES0OQ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="558" y="240" as="sourcePoint" />
+            <mxPoint x="560" y="1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-20" value="Week 1&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dnone%3Bhtml%3D1%3Brounded%3D0%3BentryX%3D0.126%3BentryY%3D0.005%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3BexitX%3D0.124%3BexitY%3D0.998%3BexitDx%3D0%3BexitDy%3D0%3BexitPerimeter%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%221438%22%20y%3D%22241%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%221440%22%20y%3D%222%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="E5UF3V_XAKviFp6ES0OQ-19">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-21" value="Week 2&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dnone%3Bhtml%3D1%3Brounded%3D0%3BentryX%3D0.126%3BentryY%3D0.005%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3BexitX%3D0.124%3BexitY%3D0.998%3BexitDx%3D0%3BexitDy%3D0%3BexitPerimeter%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%221438%22%20y%3D%22241%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%221440%22%20y%3D%222%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%32&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="E5UF3V_XAKviFp6ES0OQ-19">
+          <mxGeometry x="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-22" value="Week 3&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dnone%3Bhtml%3D1%3Brounded%3D0%3BentryX%3D0.126%3BentryY%3D0.005%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3BexitX%3D0.124%3BexitY%3D0.998%3BexitDx%3D0%3BexitDy%3D0%3BexitPerimeter%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%221438%22%20y%3D%22241%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%221440%22%20y%3D%222%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="E5UF3V_XAKviFp6ES0OQ-19">
+          <mxGeometry x="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-23" value="Week 4&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dnone%3Bhtml%3D1%3Brounded%3D0%3BentryX%3D0.126%3BentryY%3D0.005%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3BexitX%3D0.124%3BexitY%3D0.998%3BexitDx%3D0%3BexitDy%3D0%3BexitPerimeter%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%221438%22%20y%3D%22241%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%221440%22%20y%3D%222%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="E5UF3V_XAKviFp6ES0OQ-19">
+          <mxGeometry x="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-24" value="Week 5&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dnone%3Bhtml%3D1%3Brounded%3D0%3BentryX%3D0.126%3BentryY%3D0.005%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3BexitX%3D0.124%3BexitY%3D0.998%3BexitDx%3D0%3BexitDy%3D0%3BexitPerimeter%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%221438%22%20y%3D%22241%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%221440%22%20y%3D%222%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="E5UF3V_XAKviFp6ES0OQ-19">
+          <mxGeometry x="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-25" value="Week 6&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dnone%3Bhtml%3D1%3Brounded%3D0%3BentryX%3D0.126%3BentryY%3D0.005%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3BexitX%3D0.124%3BexitY%3D0.998%3BexitDx%3D0%3BexitDy%3D0%3BexitPerimeter%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%221438%22%20y%3D%22241%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%221440%22%20y%3D%222%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="E5UF3V_XAKviFp6ES0OQ-19">
+          <mxGeometry x="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-26" value="Week 7&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dnone%3Bhtml%3D1%3Brounded%3D0%3BentryX%3D0.126%3BentryY%3D0.005%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3BexitX%3D0.124%3BexitY%3D0.998%3BexitDx%3D0%3BexitDy%3D0%3BexitPerimeter%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%221438%22%20y%3D%22241%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%221440%22%20y%3D%222%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="E5UF3V_XAKviFp6ES0OQ-19">
+          <mxGeometry x="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-27" value="Week 8&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dnone%3Bhtml%3D1%3Brounded%3D0%3BentryX%3D0.126%3BentryY%3D0.005%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3BexitX%3D0.124%3BexitY%3D0.998%3BexitDx%3D0%3BexitDy%3D0%3BexitPerimeter%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%221438%22%20y%3D%22241%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%221440%22%20y%3D%222%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="E5UF3V_XAKviFp6ES0OQ-19">
+          <mxGeometry x="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-1" value="PLanning&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="201" y="79" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-2" value="Html,CSS and JS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="281" y="120" width="159" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-3" value="&amp;nbsp;Database Setup, Looping, Categoriging&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="161" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-4" value="Admin DashBoard" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5UF3V_XAKviFp6ES0OQ-6" value="Testing And Debugging" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="759" y="240" width="82" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
