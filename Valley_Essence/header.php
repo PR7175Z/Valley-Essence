@@ -1,9 +1,10 @@
+<?php include('../config/init.php');?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Valley Essence</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/splide.min.css">
     <link rel="stylesheet" href="style.css">
@@ -16,7 +17,7 @@
                 <div class="col-auto">
                     <div class="site-logo">
                         <a href="#">
-                            Bhaktapur Blogs
+                            Valley Essence
                         </a>
                     </div>
                 </div>

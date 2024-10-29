@@ -230,3 +230,31 @@ a,strong,span{
 .read-more-btn:hover{
     color: var(--primary-color);
 }
+
+/*District Category*/
+.three-column-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.three-column-grid .grid-item{
+    height: 100%;
+}
+.three-column-grid .grid-item a{
+    display: block;
+    background-color: #f6f7f6;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.three-column-grid .grid-item a img{
+    height: auto;
+    width: 100%;
+    aspect-ratio: 9/11;
+}
+.three-column-grid .grid-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

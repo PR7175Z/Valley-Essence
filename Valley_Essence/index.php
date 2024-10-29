@@ -1,4 +1,4 @@
-<?php include "header.php"?>
+<?php include('header.php') ?>
 <!--HEader Php-->
 
 <section class="main-banenr-section section-gaps">
@@ -372,6 +372,38 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="district-category-section section-gaps">
+    <div class="three-column-grid">
+        <div class="grid-item">
+            <a href="#" title="Kathmandu">
+                <img src="images/kathmandu.png" alt="">
+                <div class="grid-content">
+                    <h2>Kathmandu</h2>
+                    <p>The Capital of Nepal</p>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="#" title="Kathmandu">
+                <img src="images/kathmandu.png" alt="">
+                <div class="grid-content">
+                    <h2>Bhaktapur</h2>
+                    <p>The Capital of Nepal</p>
+                </div>
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="#" title="Kathmandu">
+                <img src="images/lalitpur.jpeg" alt="">
+                <div class="grid-content">
+                    <h2>Lalitpur</h2>
+                    <p>The Capital of Nepal</p>
+                </div>
+            </a>
         </div>
     </div>
 </section>
