@@ -376,34 +376,41 @@
     </div>
 </section>
 
-<section class="district-category-section section-gaps">
-    <div class="three-column-grid">
-        <div class="grid-item">
-            <a href="#" title="Kathmandu">
-                <img src="images/kathmandu.png" alt="">
-                <div class="grid-content">
-                    <h2>Kathmandu</h2>
-                    <p>The Capital of Nepal</p>
-                </div>
-            </a>
+<section class="district-category-section section-gaps bg-gray">
+    <div class="container">
+        <div class="section-head">
+            <div class="main-title text-center">
+                <h2>Places to see in Kathmandu Valley</h2>
+            </div>
         </div>
-        <div class="grid-item">
-            <a href="#" title="Kathmandu">
-                <img src="images/kathmandu.png" alt="">
-                <div class="grid-content">
-                    <h2>Bhaktapur</h2>
-                    <p>The Capital of Nepal</p>
-                </div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="#" title="Kathmandu">
-                <img src="images/lalitpur.jpeg" alt="">
-                <div class="grid-content">
-                    <h2>Lalitpur</h2>
-                    <p>The Capital of Nepal</p>
-                </div>
-            </a>
+        <div class="three-column-grid hover-scale">
+            <div class="grid-item">
+                <a href="#" title="Kathmandu">
+                    <img src="images/kathmandu.jpg" alt="">
+                    <div class="grid-content">
+                        <h2>Kathmandu</h2>
+                        <p>City of Temples</p>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="#" title="Kathmandu">
+                    <img src="images/nyatapolo.jpg" alt="">
+                    <div class="grid-content">
+                        <h2>Bhaktapur</h2>
+                        <p>City of Pottery</p>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="#" title="Kathmandu">
+                    <img src="images/patan.jpeg" alt="">
+                    <div class="grid-content">
+                        <h2>Lalitpur</h2>
+                        <p>City of Fine Arts</p>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </section>
