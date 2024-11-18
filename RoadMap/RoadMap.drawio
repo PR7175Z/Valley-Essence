@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.14">
+  <diagram name="Page-1" id="eazlTOgH6hjbIbosQica">
+    <mxGraphModel dx="1635" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ziV2CxYxREI1OepjDIaN-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dMNMry8chNBNtmjIXC7C-1" target="ziV2CxYxREI1OepjDIaN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dMNMry8chNBNtmjIXC7C-1" target="ziV2CxYxREI1OepjDIaN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dMNMry8chNBNtmjIXC7C-1" target="ziV2CxYxREI1OepjDIaN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dMNMry8chNBNtmjIXC7C-1" target="ziV2CxYxREI1OepjDIaN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dMNMry8chNBNtmjIXC7C-1" target="ziV2CxYxREI1OepjDIaN-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dMNMry8chNBNtmjIXC7C-1" target="ziV2CxYxREI1OepjDIaN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dMNMry8chNBNtmjIXC7C-1" value="Bhaktapur Blogs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="284" y="125" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-1" value="Home Page" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="216" y="224" width="120" height="39.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-4" value="Blog Listing Page" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="352" y="225.5" width="120" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-8" value="Blog Single page" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="224" width="120" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-10" value="Contact Page" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="648" y="224" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ziV2CxYxREI1OepjDIaN-12" target="ziV2CxYxREI1OepjDIaN-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ziV2CxYxREI1OepjDIaN-12" target="ziV2CxYxREI1OepjDIaN-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ziV2CxYxREI1OepjDIaN-12" target="ziV2CxYxREI1OepjDIaN-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ziV2CxYxREI1OepjDIaN-12" target="ziV2CxYxREI1OepjDIaN-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ziV2CxYxREI1OepjDIaN-12" target="ziV2CxYxREI1OepjDIaN-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-12" value="Functions involved" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="78" y="329" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-14" value="DashBoard" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="78" y="225.5" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-17" value="Search Function" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="178" y="431" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-19" value="Filter Based on category" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="13" y="431" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-22" value="Sorting based on date, place, time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="426" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-24" value="Login Page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-63" y="225.5" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-27" value="Posting Blogs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="431" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ziV2CxYxREI1OepjDIaN-29" value="Recommended Blogs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="428.5" width="120" height="41" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
