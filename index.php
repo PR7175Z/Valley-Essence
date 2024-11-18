@@ -4,5 +4,4 @@
     }else{
         echo '<div> not initialized</div>';
     }?>
-    asd
 <?php include('theme-parts/footer.php') ?>
