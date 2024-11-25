@@ -104,10 +104,10 @@
     </div>
 </footer>
 
-<script src="http://localhost/<?php echo $_SERVER['REQUEST_URI']; ?>/assets/js/jquery.min.js"></script>
-<script src="http://localhost/<?php echo $_SERVER['REQUEST_URI']; ?>/assets/js/bootstrap.js"></script>
-<script src="http://localhost/<?php echo $_SERVER['REQUEST_URI']; ?>/assets/js/splide.min.js"></script>
-<script src="http://localhost/<?php echo $_SERVER['REQUEST_URI']; ?>/assets/js/script.js"></script>
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/bootstrap.js"></script>
+<script src="./assets/js/splide.min.js"></script>
+<script src="./assets/js/script.js"></script>
 </body>
 
 </html>
