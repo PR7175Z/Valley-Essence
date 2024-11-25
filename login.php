@@ -1,17 +1,21 @@
 <?php include('theme-parts/header.php') ?>
 
-<form id="loginform" method="post">
-    <?php 
-    if(isset($_SESSION['login'])){
-        echo $_SESSION['login'];
-        unset($_SESSION['login']);
-    }
-    ?>
-    <input type="text" name="username" placeholder="username" required>
-    <input type="password" name="password" placeholder="Password" required>
-    <input type="submit" name="submit" value="Submit">
-</form>
 
+<section class="login-section section-gaps">
+    <div class="container section-gaps">
+        <form id="loginform" method="post">
+            <?php 
+            if(isset($_SESSION['login'])){
+                echo $_SESSION['login'];
+                unset($_SESSION['login']);
+            }
+            ?>
+            <input type="text" name="username" placeholder="username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </div>
+</section>
 <?php 
     //CHeck whether the Submit Button is Clicked or NOt
     if(isset($_POST['submit']))
