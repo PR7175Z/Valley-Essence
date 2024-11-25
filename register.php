@@ -1,19 +1,25 @@
 <?php include('theme-parts/header.php') ?>
 
-<form id="registerform" method="post">
-    <?php 
-    if(isset($_SESSION['login'])){
-        echo $_SESSION['login'];
-        unset($_SESSION['login']);
-    }
-    ?>
-    <input type="text" name="first_name" placeholder="First Name" required>
-    <input type="text" name="last_name" placeholder="Last Name" required>
-    <input type="email" name="user_email" placeholder="Email" required>
-    <input type="text" name="username" placeholder="username" autocomplete="off" required>
-    <input type="password" name="password" placeholder="Password" required>
-    <input type="submit" name="submit" value="Submit">
-</form>
+<section class="register-form-section section-gaps">
+    <div class="container section-gaps">
+            
+        <form id="registerform" method="post">
+            <?php 
+            if(isset($_SESSION['login'])){
+                echo $_SESSION['login'];
+                unset($_SESSION['login']);
+            }
+            ?>
+            <input type="text" name="first_name" placeholder="First Name" required>
+            <input type="text" name="last_name" placeholder="Last Name" required>
+            <input type="email" name="user_email" placeholder="Email" required>
+            <input type="text" name="username" placeholder="username" autocomplete="off" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+
+    </div>
+</section>
 
 <?php 
     //CHeck whether the Submit Button is Clicked or NOt
