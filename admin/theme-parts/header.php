@@ -1,4 +1,5 @@
 <?php include('../config/init.php'); 
+include('../functions.php');
 // session_start();
 ?>
 <html lang="en">
