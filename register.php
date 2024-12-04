@@ -1,8 +1,8 @@
 <?php include('theme-parts/header.php') ?>
 
-<section class="register-form-section section-gaps">
+<section class="customer register-form-section section-gaps">
     <div class="container section-gaps">
-            
+
         <form id="registerform" method="post">
             <?php 
             if(isset($_SESSION['login'])){
@@ -10,12 +10,32 @@
                 unset($_SESSION['login']);
             }
             ?>
-            <input type="text" name="first_name" placeholder="First Name" required>
-            <input type="text" name="last_name" placeholder="Last Name" required>
-            <input type="email" name="user_email" placeholder="Email" required>
-            <input type="text" name="username" placeholder="username" autocomplete="off" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <input type="submit" name="submit" value="Submit">
+            <h2 class="mb-4">Register here</h2>
+
+            <div class="input-field">
+                <input type="text" name="first_name" placeholder="First Name" required>
+
+            </div>
+            <div class="input-field">
+                <input type="text" name="last_name" placeholder="Last Name" required>
+
+            </div>
+            <div class="input-field">
+                <input type="email" name="user_email" placeholder="Email" required>
+
+            </div>
+            <div class="input-field">
+                <input type="text" name="username" placeholder="username" autocomplete="off" required>
+
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" placeholder="Password" required>
+
+            </div>
+            <div class="submit-field">
+                <input type="submit" name="submit" value="Register">
+
+            </div>
         </form>
 
     </div>
@@ -39,8 +59,8 @@
         $duplicateusername = mysqli_query($conn, $sql);
 
         if(mysqli_num_rows($duplicateEmail) > 0 || mysqli_num_rows($duplicateusername) > 0){?>
-            <div class='error'>Invalid user</div>
-        <?php }else{
+<div class='error'>Invalid user</div>
+<?php }else{
             $insert_query = "INSERT INTO `userdata`(`first_name`, `last_name`, `username`, `email`, `password`) VALUES ('$first_name', '$last_name', '$username','$user_email','$password')";
             $result = mysqli_query($conn, $insert_query);
 

@@ -79,6 +79,36 @@ a,strong,span{
 
 /*End Primary btn CSS*/
 
+/*Default input field*/
+.customer form{
+    max-width: 500px;
+    padding: 40px 30px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    margin: 0 auto;
+    background-color: #f6f7f9;
+}
+
+.input-field{
+    margin-bottom: 20px;
+}
+.input-field :is(input,textarea,select){
+    width: 100%;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 8px 10px;
+}
+.submit-field :is(input[type="submit"],button){
+    min-width: 150px;
+    padding: 8px 20px;
+    background-color: #AF1D21;
+    color: #ffffff;
+    border: 1px solid #f6f8f9;
+    border-radius: 4px;
+}
+/*End DEfault Input field*/
+
 /*Header CSS*/
 
 .site-header{
