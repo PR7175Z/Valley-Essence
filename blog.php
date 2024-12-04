@@ -1,7 +1,7 @@
 <?php include('theme-parts/header.php') ?>
 
 <?php
-$sql = "SELECT * FROM blog'";
+$blogs = get_blogs($conn);
 ?>
 
 <section class="innerBanner-section">
@@ -12,14 +12,16 @@ $sql = "SELECT * FROM blog'";
     </div>
 </section>
 
+<?php if($blogs){ ?>
 <section class="blog-listing section-gaps">
     <div class="container">
         <div class="blog-listing">
             <div class="row gy-4">
+                <?php foreach($blogs as $blog){ ?>
                 <div class="col-3">
                     <div class="blog-item">
                         <div class="img-holder">
-                            <a href="#"><img src="" alt="img"></a>
+                            <a href="#"><img src="<?php //echo $blog['image']; ?>" alt="img"></a>
                         </div>
                         <div class="blog-content">
                             <h3>
@@ -34,9 +36,11 @@ $sql = "SELECT * FROM blog'";
                         </div>
                     </div>
                 </div>
+                <?php }?>
             </div>
         </div>
     </div>
 </section>
+<?php }?>
 
 <?php include('theme-parts/footer.php') ?>
