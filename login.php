@@ -1,7 +1,7 @@
 <?php include('theme-parts/header.php') ?>
 
 
-<section class="login-section section-gaps">
+<section class="customer login-section section-gaps">
     <div class="container section-gaps">
         <form id="loginform" method="post">
             <?php 
@@ -10,9 +10,20 @@
                 unset($_SESSION['login']);
             }
             ?>
+            <h2 class="mb-4">Log In</h2>
+
+            <div class="input-field">
             <input type="text" name="username" placeholder="username" required>
+
+            </div>
+            <div class="input-field">
             <input type="password" name="password" placeholder="Password" required>
-            <input type="submit" name="submit" value="Submit">
+
+            </div>
+            <div class="submit-field">
+            <input type="submit" name="submit" value="Login">
+
+            </div>
         </form>
     </div>
 </section>
