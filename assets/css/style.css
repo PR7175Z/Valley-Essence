@@ -284,7 +284,7 @@ a,strong,span{
 .three-column-grid .grid-item{
     flex: 1 0 33.33%;
     width: 100%;
-    transition: all 0.5s cubic-bezier(.47,1.64,0.41,1);
+    transition: all 0.8s cubic-bezier(.47,1.64,0.41,1);
 }
 .three-column-grid .grid-item:hover{
     flex: 1 0 50%;
