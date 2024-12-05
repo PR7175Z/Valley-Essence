@@ -32,6 +32,7 @@ $blogs = get_blogs($conn);
                             <p>
                                 <?php echo $blog['content']; ?>
                             </p>
+                            <p?>Author: <?php echo $blog['uid']; ?></p>
                             <a href="#" class="read-more-btn">Read More</a>
                         </div>
                     </div>
