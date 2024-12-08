@@ -1,13 +1,13 @@
 <div class="side-panel">
     <ul>
         <li>
-            <a href="#">Dashboard</a>
+            <a href="/phpsite/blogsite/admin">Dashboard</a>
         </li>
         <li>
-            <a href="#">Add Blog</a>
+            <a href="/phpsite/blogsite/admin/blog.php">Blogs</a>
         </li>
         <li>
-            <a href="#">Add Blog</a>
+            <a href="/phpsite/blogsite/admin/addblog.php">Add Blog</a>
         </li>
         <li>
             <a href="#">ADd Category</a>

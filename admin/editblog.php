@@ -1,18 +1,21 @@
-<?php include('theme-parts/header.php');
-$message='';
-if ( isset( $_SESSION['message'] ) ) {
-    $message = $_SESSION['message'];
-    kill_session();
-}
-
+<?php 
 $url = $_SERVER['REQUEST_URI'];
 $parts = parse_url($url);
 parse_str($parts['query'], $query);
 $blog_id =  $query['id'];
 
-$current_blog = get_blogs($conn, $blog_id)[0];
+if(!$blog_id){
+    header("Location: http://localhost/phpsite/blogsite/blog.php");
+    exit;
+}
 
-print_r($current_blog);
+include('theme-parts/header.php');
+$message='';
+if ( isset( $_SESSION['message'] ) ) {
+    $message = $_SESSION['message'];
+    kill_session();
+}
+$current_blog = get_blogs($conn, $blog_id)[0];
 if($current_blog){
 ?>
 <section class="edit-blog">
@@ -48,7 +51,8 @@ if($current_blog){
                 <?php }?>
             </div>
             <?php }?>
-            <textarea name="description" placeholder="Your message"><?php echo $current_blog['content']; ?></textarea>
+            <div id="editor"></div>
+            <input type="hidden" name="editorContent" id="editorContent" value="<?php echo $current_blog['content']; ?>">
             <input type="submit" name="submit" value="Submit">
         </form>
     </div>
