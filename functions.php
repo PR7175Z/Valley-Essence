@@ -53,6 +53,18 @@ function get_category($conn) {
     }
 }
 
+function except($content, $limit=50){
+    $excerpt = explode(' ', $content, $limit);
+    if (count($excerpt)>=$limit) {
+        array_pop($excerpt);
+        $excerpt = implode(" ",$excerpt).'...';
+    } else {
+        $excerpt = implode(" ",$excerpt);
+    }
+    $excerpt = preg_replace('`\[[^\]]*\]`','',$excerpt);
+    return $excerpt;
+}
+
 function session_message($message){
     $_SESSION['message'] = $message;
     $_SESSION['message_creation_time'] = time();
