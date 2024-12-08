@@ -51,30 +51,6 @@ include('../functions.php');
     <section class="dashboard-layout-section section-gaps">
         <div class="container">
             <div class="dashboard-layout">
-                <div class="side-panel">
-                    <ul>
-                        <li>
-                            <a href="#">Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="#">Add Blog</a>
-                        </li>
-                        <li>
-                            <a href="#">Add Blog</a>
-                        </li>
-                        <li>
-                            <a href="#">ADd Category</a>
-                        </li>
-                    </ul>
-                    <div class="logout-btn">
-                        <a href="logout.php" class="btn btn-secondary">logout</a>
-                    </div>
-                </div>
+                <?php include('theme-parts/side-nav.php') ?>
                 <div class="main-panel">
                     <div class="dashboard-main">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
