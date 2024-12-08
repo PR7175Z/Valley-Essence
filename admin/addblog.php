@@ -45,7 +45,8 @@ if ( isset( $_SESSION['message'] ) ) {
 <?php
 
 date_default_timezone_set('Asia/Kathmandu');
-if(isset($_POST['submit'])){
+
+if (isset($_POST['submit'])) {
     $userid = $_SESSION['user_id'];
     $posttitle = $_POST['blog_title'];
     $postdescription = $_POST['description'];
@@ -54,24 +55,30 @@ if(isset($_POST['submit'])){
 
     $selectedCategories = $_POST['category'];
     $cat_array = [];
-    if($selectedCategories){
+    if ($selectedCategories) {
         foreach ($selectedCategories as $categoryId) {
             array_push($cat_array, $categoryId);
         }
     }
     $catids = implode(', ', $cat_array);
 
-    $insert_query = "INSERT INTO `blog`(`title`, `content`, `image`, `published_date`, `uid`, `cat_id`) VALUES ('$posttitle', '$postdescription', '$featuredimg','$publishedtime','$userid', '$catids')";
-    $result = mysqli_query($conn, $insert_query);
+    // Use prepared statement to insert blog
+    $stmt = $conn->prepare(
+        "INSERT INTO `blog`(`title`, `content`, `image`, `published_date`, `uid`, `cat_id`) VALUES (?, ?, ?, ?, ?, ?)"
+    );
+    $stmt->bind_param("sssssi", $posttitle, $postdescription, $featuredimg, $publishedtime, $userid, $catids);
 
-    if( mysqli_affected_rows($conn)){
+    if ($stmt->execute()) {
         $msg = "<div class='success'>Blog added successfully.</div>";
         session_message($msg);
-    }else{
-        $msg = "<div class='error'>Blog addition failed</div>";
+    } else {
+        $msg = "<div class='error'>Blog addition failed: " . $stmt->error . "</div>";
         session_message($msg);
     }
+
+    $stmt->close();
 }
+
 ?>
 
 <?php include('theme-parts/footer.php') ?>
