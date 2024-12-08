@@ -21,7 +21,7 @@ $blogs = get_blogs($conn);
                 <div class="col-3">
                     <div class="blog-item">
                         <div class="img-holder">
-                            <a href="#"><img src="./Valley_Essence/images/bhaktapur.jpg" alt="img"></a>
+                            <a href="#"><img src="<?php echo $blog['image']; ?>" alt="img"></a>
                         </div>
                         <div class="blog-content">
                             <h3>
