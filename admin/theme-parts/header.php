@@ -10,6 +10,7 @@ include('../functions.php');
     <title>Dashboard</title>
     <link rel="stylesheet" href="http://localhost/phpsite/blogsite/assets/css/bootstrap.css">
     <link rel="stylesheet" href="http://localhost/phpsite/blogsite/assets/css/splide.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css" rel="stylesheet" />
     <link rel="stylesheet" href="http://localhost/phpsite/blogsite/assets/css/style.css">
 </head>
 

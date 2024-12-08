@@ -36,7 +36,8 @@ if ( isset( $_SESSION['message'] ) ) {
                 <?php }?>
             </div>
             <?php }?>
-            <textarea name="description" placeholder="Your message"></textarea>
+            <div id="editor"></div>
+            <textarea name="description" name="editorContent" id="editorContent" placeholder="Your message"></textarea>
             <input type="submit" name="submit" value="Submit">
         </form>
     </div>
