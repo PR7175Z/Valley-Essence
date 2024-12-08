@@ -30,7 +30,7 @@ $blogs = get_blogs($conn);
                                 </a>
                             </h3>
                             <p>
-                                <?php echo $blog['content']; ?>
+                                <?php echo except($blog['content']); ?>
                             </p>
                             <p?>Author: <?php echo $blog['uid']; ?></p>
                             <a href="#" class="read-more-btn">Read More</a>
