@@ -13,18 +13,15 @@
             </ul>
         </li>
         <li>
-            <a href="#">Category</a>
+            <a href="<?php echo SITEURL.'admin/category.php'; ?>">Category</a>
             <ul class="sub-panel">
                 <li>
-                    <a href="/phpsite/blogsite/admin/addcategory.php">Add Category</a>
+                    <a href="<?php echo SITEURL.'admin/addcategory.php';?>">Add Category</a>
                 </li>
             </ul>
         </li>
         <li>
-            <a href="#">Authors</a>
-        </li>
-        <li>
-            <a href="#">Users</a>
+            <a href="<?php echo SITEURL.'admin/user.php'; ?>">Users</a>
         </li>
     </ul>
     <?php }elseif($userrole == 2){?>
