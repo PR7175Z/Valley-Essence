@@ -244,22 +244,22 @@ if($blogs){
                         <div class="splide">
                             <div class="splide__track">
                                 <ul class="splide__list">
-                                    <?php foreach($blogs as $blog){ ?>
+                                    <?php foreach($blogs as $blog){ $url = SITEURL.'blog-single.php?id='. $blog['id']; ?>
                                     <li class="splide__slide">
                                         <div class="blog-item">
                                             <div class="img-holder">
-                                                <a href="#"><img src="./Valley_Essence/images/bhaktapur.jpg" alt="img"></a>
+                                                <a href="<?php echo $url; ?>"><img src="<?php echo $blog['image']; ?>" alt="img"></a>
                                             </div>
                                             <div class="blog-content">
                                                 <h3>
-                                                    <a href="#">
+                                                    <a href="<?php echo $url; ?>">
                                                         <?php echo $blog['title']; ?>
                                                     </a>
                                                 </h3>
                                                 <p>
                                                     <?php echo $blog['content']; ?>
                                                 </p>
-                                                <a href="#" class="read-more-btn">Read More</a>
+                                                <a href="<?php echo $url; ?>" class="read-more-btn">Read More</a>
                                             </div>
                                         </div>
                                     </li>
