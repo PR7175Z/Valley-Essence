@@ -21,7 +21,7 @@ if ( isset( $_SESSION['message'] ) ) {
                     <input type="text" name="blog_title" placeholder="Title">
                 </div>
                 <div class="post-content">
-                    <div id="editor"></div>
+                    <div id="editor" style="height: 300px;"></div>
                     <textarea name="description" name="editorContent" id="editorContent" placeholder="Your message"></textarea>
                 </div>
                 <div class="post-category">

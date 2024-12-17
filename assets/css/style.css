@@ -165,7 +165,7 @@ a,strong,span{
 
 /*DashBoard Blog listing*/
 
-.dashboard-main .bloglisting .blog-list table{
+.dashboard-main table{
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
@@ -237,6 +237,9 @@ a,strong,span{
     max-width: 100px;
     text-align: center;
     font-size: 14px;
+}
+.dashboard-main .dashboard-userlist table tr :is(th,td){
+    text-align: left !important;
 }
 /*End Dashboard Blog Listing*/
 /*End Dashboard CSS*/
