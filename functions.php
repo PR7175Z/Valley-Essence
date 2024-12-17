@@ -21,8 +21,12 @@ function get_blogs($conn, $id = null) {
     }
 }
 
-function get_user($conn, $id) {
-    $sql = "SELECT * FROM userdata where id=$id";
+function get_user($conn, $id = null) {
+    if ($id !== null) {
+        $sql = "SELECT * FROM userdata where id=$id";
+    }else{
+        $sql = "SELECT * FROM userdata";
+    }
     $res = mysqli_query($conn, $sql);
 
     if ($res) {
