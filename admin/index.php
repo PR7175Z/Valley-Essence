@@ -1,4 +1,9 @@
-<?php include('theme-parts/header.php') ?>
+<?php include('theme-parts/header.php');
+if($userrole == 3){
+    header("Location: ". SITEURL . "admin/account.php");
+    exit();
+}
+?>
 
 <div class="dashboard-acoount">
     <div class="dashboard-head">
