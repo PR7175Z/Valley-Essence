@@ -117,6 +117,9 @@ a,strong,span{
     list-style: none;
     margin: 0;   
 }
+.dashboard-layout .side-panel ul li{
+    position: relative;
+}
 .dashboard-layout .side-panel ul li a{
     display: block;
     border: 1px solid transparent;
@@ -129,6 +132,33 @@ a,strong,span{
 .dashboard-layout .side-panel ul li a:hover{
     border-color: #d9d9d9;
     background-color: #f6f7f9;
+}
+.dashboard-layout .side-panel .sub-panel{
+    position: absolute;
+    left: calc(100% + 10px);
+    top: 0;
+    background-color: #ececec;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    position: none;
+}
+.dashboard-layout .side-panel .sub-panel a{
+    font-size: 16px;
+}
+.dashboard-layout .side-panel ul li:has(ul):hover:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    bottom: 0;
+    width: 10px;
+    cursor: pointer;
+}
+.dashboard-layout .side-panel ul li:has(ul):hover .sub-panel{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 /*End Dashboard Side Panel*/
 
