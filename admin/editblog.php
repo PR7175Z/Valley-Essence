@@ -74,16 +74,17 @@ if($current_blog){
                         <input type="submit" name="submit" value="Submit">
 
                     </div>
-
-                    <div class="form-field blog-image">
-                        <label class="blog-featured-img" for="blogimg">
-                            Featured image
-                            <input type="file" style="visibility: hidden;" name="blogimg" id="blogimg" accept="image/*">
-                            <img src="<?php if($current_blog['image']){ echo $current_blog['image']; }else{ ?>http://matters.cloud392.com/wp-content/uploads/2024/06/camera-icon.png<?php }?>"
-                                id="fimg" alt="img">
-                        </label>
-                        <button id="removeimg">Remove Image</button>
-                        <textarea name="blogimgblob" id="blogimgblob" class="d-none"></textarea>
+                    <div class="post-image">
+                        <div class="form-field blog-image">
+                            <label class="blog-featured-img" for="blogimg">
+                                Featured image
+                                <input type="file" style="visibility: hidden;" name="blogimg" id="blogimg" accept="image/*">
+                                <img src="<?php if($current_blog['image']){ echo $current_blog['image']; }else{ ?>http://matters.cloud392.com/wp-content/uploads/2024/06/camera-icon.png<?php }?>"
+                                    id="fimg" alt="img">
+                            </label>
+                            <button id="removeimg">Remove Image</button>
+                            <textarea name="blogimgblob" id="blogimgblob" class="d-none"></textarea>
+                        </div>
                     </div>
                 </div>
             </div>
