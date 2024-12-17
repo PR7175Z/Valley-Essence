@@ -16,6 +16,9 @@
             </ul>
         </li>
         <li>
+            <a href="#">Pending Blogs</a>
+        </li>
+        <li>
             <a href="#">Category</a>
         </li>
         <li>
@@ -54,24 +57,10 @@
             <a href="/phpsite/blogsite/admin/account.php">Account Setting</a>
         </li>
         <li>
-            <a href="/phpsite/blogsite/admin/blog.php">Blogs</a>
-            <ul class="sub-panel">
-                <li>
-                    <a href="/phpsite/blogsite/admin/addblog.php">Add Blog</a>
-                </li>
-                <li>
-                    <a href="/phpsite/blogsite/admin/addcategory.php">Add Category</a>
-                </li>
-            </ul>
+            <a href="/phpsite/blogsite/admin/beauthor.php">Become an Author</a>
         </li>
         <li>
-            <a href="#">Category</a>
-        </li>
-        <li>
-            <a href="#">Authors</a>
-        </li>
-        <li>
-            <a href="#">Users</a>
+            <a href="#">Comments</a>
         </li>
     </ul>
     <?php }?>
