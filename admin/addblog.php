@@ -54,6 +54,7 @@ if (isset($_POST['submit'])) {
     $featuredimg = $_POST['blogimgblob'];
 
     $selectedCategories = $_POST['category'];
+    $status = ($userrole == 1) ? 1 : 0;
     $cat_array = [];
     if ($selectedCategories) {
         foreach ($selectedCategories as $categoryId) {
@@ -64,9 +65,9 @@ if (isset($_POST['submit'])) {
 
     // Use prepared statement to insert blog
     $stmt = $conn->prepare(
-        "INSERT INTO `blog`(`title`, `content`, `image`, `published_date`, `uid`, `cat_id`) VALUES (?, ?, ?, ?, ?, ?)"
+        "INSERT INTO `blog`(`title`, `content`, `image`, `published_date`, `uid`, `cat_id`, `status`) VALUES (?, ?, ?, ?, ?, ?, ?)"
     );
-    $stmt->bind_param("sssssi", $posttitle, $postdescription, $featuredimg, $publishedtime, $userid, $catids);
+    $stmt->bind_param("sssssi", $posttitle, $postdescription, $featuredimg, $publishedtime, $userid, $catids, $status);
 
     if ($stmt->execute()) {
         $msg = "<div class='success'>Blog added successfully.</div>";
