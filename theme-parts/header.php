@@ -30,7 +30,7 @@ include('functions.php');
                                     <a href="#">Information</a>
                                 </li>
                                 <li>
-                                    <a href="#">Blogs</a>
+                                    <a href="<?php echo SITEURL.'blog.php' ?>">Blogs</a>
                                 </li>
                                 <li>
                                     <a href="#">Events</a>

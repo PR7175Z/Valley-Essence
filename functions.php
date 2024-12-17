@@ -41,6 +41,22 @@ function get_user($conn, $id = null) {
     }
 }
 
+function get_userrole($conn, $id){
+    $sql = "SELECT * FROM role where id=$id";
+
+    $res = mysqli_query($conn, $sql);
+    if ($res) {
+        $roles = [];
+        while ($row = mysqli_fetch_assoc($res)) {
+            $roles[] = $row; // Add each row to the roles array
+        }
+        return $roles; // Return the array of blogs
+    } else {
+        // Return an error message or handle the error
+        return 'Query failed: ' . mysqli_error($conn);
+    }
+}
+
 function get_category($conn) {
     $sql = "SELECT * FROM category";
     $res = mysqli_query($conn, $sql);

@@ -1,10 +1,15 @@
-<?php include('theme-parts/header.php'); ?>
+<?php include('theme-parts/header.php'); 
+
+$users = get_user($conn);
+
+if($users){
+?>
 <section class="dashboard-userlist">
     <div class="user-tab">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
-                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">ALl</button>
+                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">All</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
@@ -18,11 +23,126 @@
                 <button class="nav-link" id="user-tab" data-bs-toggle="tab" data-bs-target="#user-tab-pane"
                     type="button" role="tab" aria-controls="user-tab-pane" aria-selected="false">Users</button>
             </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="user-tab" data-bs-toggle="tab" data-bs-target="#pending-tab-pane"
+                    type="button" role="tab" aria-controls="pending-tab-pane" aria-selected="false">Pending Authors</button>
+            </li>
         </ul>
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
                 tabindex="0">
-                <div class="blog-list approved-list">
+                <div class="user-list">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Username</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>User Role</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach($users as $user){?>
+                            <tr>
+                                <td class="user-id"><?php echo $user['id']; ?></td>
+                                <td class="user-name"><?php echo $user['username']; ?></td>
+                                <td class="user-name"><?php echo $user['first_name']; ?> <?php echo $user['last_name']; ?></td>
+                                <td class="user-email"><?php echo $user['email']; ?></td>
+                                <td class="user-role"><?php echo get_userrole($conn, $user['userrole'])[0]['Name']; ?></td>
+                            </tr>
+                            <?php }?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <div class="user-list">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Username</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>User Role</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach($users as $user){
+                                if($user['userrole'] == 1){?>
+                                <tr>
+                                    <td class="user-id"><?php echo $user['id']; ?></td>
+                                    <td class="user-name"><?php echo $user['username']; ?></td>
+                                    <td class="user-name"><?php echo $user['first_name']; ?> <?php echo $user['last_name']; ?></td>
+                                    <td class="user-email"><?php echo $user['email']; ?></td>
+                                    <td class="user-role"><?php echo get_userrole($conn, $user['userrole'])[0]['Name']; ?></td>
+                                </tr>
+                                <?php }
+                            }?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                <div class="user-list">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Username</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>User Role</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach($users as $user){
+                                if($user['userrole'] == 2){?>
+                                <tr>
+                                    <td class="user-id"><?php echo $user['id']; ?></td>
+                                    <td class="user-name"><?php echo $user['username']; ?></td>
+                                    <td class="user-name"><?php echo $user['first_name']; ?> <?php echo $user['last_name']; ?></td>
+                                    <td class="user-email"><?php echo $user['email']; ?></td>
+                                    <td class="user-role"><?php echo get_userrole($conn, $user['userrole'])[0]['Name']; ?></td>
+                                </tr>
+                                <?php }
+                            }?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="user-tab-pane" role="tabpanel" aria-labelledby="user-tab" tabindex="0">
+                <div class="user-list">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Username</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>User Role</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach($users as $user){
+                                if($user['userrole'] == 3){?>
+                                <tr>
+                                    <td class="user-id"><?php echo $user['id']; ?></td>
+                                    <td class="user-name"><?php echo $user['username']; ?></td>
+                                    <td class="user-name"><?php echo $user['first_name']; ?> <?php echo $user['last_name']; ?></td>
+                                    <td class="user-email"><?php echo $user['email']; ?></td>
+                                    <td class="user-role"><?php echo get_userrole($conn, $user['userrole'])[0]['Name']; ?></td>
+                                </tr>
+                                <?php }
+                            }?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="pending-tab-pane" role="tabpanel" aria-labelledby="user-tab" tabindex="0">
+                <div class="user-list">
                     <table>
                         <thead>
                             <tr>
@@ -60,15 +180,9 @@
                     </table>
                 </div>
             </div>
-            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-            </div>
-            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-            </div>
-            <div class="tab-pane fade" id="user-tab-pane" role="tabpanel" aria-labelledby="user-tab" tabindex="0">
-            </div>
         </div>
     </div>
 
 </section>
-
-<?php include('theme-parts/footer.php') ?>
+<?php }
+include('theme-parts/footer.php') ?>
