@@ -219,7 +219,10 @@ a,strong,span{
     margin: 0 auto;
     background-color: #f6f7f9;
 }
-
+.customer a{
+    color: #AF1D21;
+    text-decoration: underline;
+}
 .input-field{
     margin-bottom: 20px;
 }

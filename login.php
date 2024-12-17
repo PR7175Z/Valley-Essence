@@ -20,9 +20,12 @@
             <input type="password" name="password" placeholder="Password" required>
 
             </div>
+            <div class="login-info">
+                <p>Don't Have an account? <a href="/phpsite/blogsite/register.php">Sign Up</a>.</p>
+                <p>Forgot <a href="#">Password</a>?</p>
+            </div>
             <div class="submit-field">
             <input type="submit" name="submit" value="Login">
-
             </div>
         </form>
     </div>
@@ -49,7 +52,10 @@
                 $_SESSION['user'] = $username; //TO check whether the user is logged in or not and logout will unset it
 
                 $_SESSION['user_id'] = $row['id'];
-                header('location:'.SITEURL.'admin/');
+                echo '<script type="text/javascript">';
+                echo 'window.location.href="'.SITEURL.'admin/";';
+                echo '</script>';
+                exit;
             }
         }
         else

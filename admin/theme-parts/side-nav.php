@@ -5,12 +5,23 @@
         </li>
         <li>
             <a href="/phpsite/blogsite/admin/blog.php">Blogs</a>
+            <ul class="sub-panel">
+                <li>
+                    <a href="/phpsite/blogsite/admin/addblog.php">Add Blog</a>
+                </li>
+                <li>
+                    <a href="/phpsite/blogsite/admin/addcategory.php">Add Category</a>
+                </li>
+            </ul>
         </li>
         <li>
-            <a href="/phpsite/blogsite/admin/addblog.php">Add Blog</a>
+            <a href="#">Category</a>
         </li>
         <li>
-            <a href="/phpsite/blogsite/admin/addcategory.php">Add Category</a>
+            <a href="#">Authors</a>
+        </li>
+        <li>
+            <a href="#">Users</a>
         </li>
     </ul>
 </div>
@@ -21,8 +32,8 @@
 
     // Add active class to matching link
     navLinks.forEach(link => {
-    if (link.getAttribute('href').replace(/\/$/, "") === currentPath) {
-        link.classList.add('active');
-    }
+        if (link.getAttribute('href').replace(/\/$/, "") === currentPath) {
+            link.classList.add('active');
+        }
     });
 </script>
