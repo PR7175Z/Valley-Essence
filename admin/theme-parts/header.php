@@ -1,9 +1,15 @@
 <?php include('../config/init.php'); 
 include('../functions.php');
+
+//if user not logged in redirect to login page
+if( !$_SESSION['user_id']){
+    header("Location: ". SITEURL . "login.php");
+    exit();
+}
+
 $current_userid = $_SESSION['user_id'];
 $user = get_user($conn, $current_userid)[0];
 $userrole = $user['userrole'];
-// session_start();
 ?>
 <html lang="en">
 

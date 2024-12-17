@@ -53,6 +53,22 @@ function get_category($conn) {
     }
 }
 
+function get_blog_category($conn, $id){
+    $sql = "SELECT * FROM category WHERE id IN ($id)";
+    $res = mysqli_query($conn, $sql);
+
+    if ($res) {
+        $categories = [];
+        while ($row = mysqli_fetch_assoc($res)) {
+            $categories[] = $row; // Add each row to the categories array
+        }
+        return $categories; // Return the array of blogs
+    } else {
+        // Return an error message or handle the error
+        return 'Query failed: ' . mysqli_error($conn);
+    }
+}
+
 function except($content, $limit=50){
     $excerpt = explode(' ', $content, $limit);
     if (count($excerpt)>=$limit) {
