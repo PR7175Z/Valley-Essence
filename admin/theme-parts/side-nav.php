@@ -10,16 +10,15 @@
                 <li>
                     <a href="/phpsite/blogsite/admin/addblog.php">Add Blog</a>
                 </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Category</a>
+            <ul class="sub-panel">
                 <li>
                     <a href="/phpsite/blogsite/admin/addcategory.php">Add Category</a>
                 </li>
             </ul>
-        </li>
-        <li>
-            <a href="#">Pending Blogs</a>
-        </li>
-        <li>
-            <a href="#">Category</a>
         </li>
         <li>
             <a href="#">Authors</a>
