@@ -75,7 +75,3 @@ function kill_session(){
         unset($_SESSION['message']);
     }
 }
-
-function test(){
-    echo 'test';
-}

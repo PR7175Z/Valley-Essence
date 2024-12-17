@@ -1,9 +1,4 @@
-<?php include('theme-parts/header.php');
-if($userrole == 3){
-    header("Location: ". SITEURL . "admin/account.php");
-    exit();
-}
-?>
+<?php include('theme-parts/header.php');?>
 
 <div class="dashboard-acoount">
     <div class="dashboard-head">
@@ -15,22 +10,22 @@ if($userrole == 3){
             <div class="row">
                 <div class="col-md-6">
                     <div class="input-field">
-                        <input type="text" name="firstname" placeholder="First Name" required="" value="John" disabled>
+                        <input type="text" name="firstname" placeholder="First Name" required="" value="<?php echo $user['first_name']; ?>">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="input-field">
-                        <input type="text" name="lastname" placeholder="Last Name" required="" value="Doe" disabled>
+                        <input type="text" name="lastname" placeholder="Last Name" required="" value="<?php echo $user['last_name']; ?>">
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="input-field">
-                        <input type="email" name="email" placeholder="example@gamil.com" required="" disabled>
+                        <input type="email" name="email" placeholder="example@gamil.com" required="" value="<?php echo $user['email']; ?>" disabled>
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="input-field">
-                        <input type="text" name="username" placeholder="username" required="" value="John" disabled>
+                        <input type="text" name="username" placeholder="username" required="" value="<?php echo $user['username']; ?>" disabled>
                     </div>
                 </div>
                 <div class="col-md-6">

@@ -1,5 +1,8 @@
 <?php include('../config/init.php'); 
 include('../functions.php');
+$current_userid = $_SESSION['user_id'];
+$user = get_user($conn, $current_userid)[0];
+$userrole = $user['userrole'];
 // session_start();
 ?>
 <html lang="en">
@@ -15,8 +18,6 @@ include('../functions.php');
 </head>
 
 <body class="logged-in dashboard">
-
-
     <header class="dashboard-header site-header">
         <div class="container">
             <div class="row align-items-center justify-content-between">
