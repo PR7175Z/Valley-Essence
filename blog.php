@@ -17,11 +17,11 @@ $blogs = get_blogs($conn);
     <div class="container">
         <div class="blog-listing">
             <div class="row gy-4">
-                <?php foreach($blogs as $blog){ ?>
+                <?php foreach($blogs as $blog){ $url = SITEURL.'blog-single.php?id='. $blog['id']; ?>
                 <div class="col-3">
                     <div class="blog-item">
                         <div class="img-holder">
-                            <a href="#"><img src="<?php echo $blog['image']; ?>" alt="img"></a>
+                            <a href="<?php echo $url; ?>"><img src="<?php echo $blog['image']; ?>" alt="img"></a>
                         </div>
                         <div class="blog-content">
                             <h3>
@@ -33,7 +33,7 @@ $blogs = get_blogs($conn);
                                 <?php echo except($blog['content']); ?>
                             </p>
                             <p?>Author: <?php echo $blog['uid']; ?></p>
-                            <a href="#" class="read-more-btn">Read More</a>
+                            <a href="<?php echo $url; ?>" class="read-more-btn">Read More</a>
                         </div>
                     </div>
                 </div>
