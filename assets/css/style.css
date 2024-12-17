@@ -220,6 +220,7 @@ a,strong,span{
 .dashboard-main table tbody tr td.blog-title a:hover{
     text-decoration: underline;
 }
+.dashboard-main table tbody tr td.blog-status,
 .dashboard-main table tbody tr td.blog-category{
     max-width: 100px;
     text-align: center;
