@@ -71,7 +71,7 @@
 
             </div>
             <div class="login-info">
-                <p>Already have an account? <a href="/phpsite/blogsite/login.php">Sign In</a>.</p>
+                <p>Already have an account? <a href="/phpsite/blogsite/login.php">Log In</a>.</p>
             </div>
             <div class="submit-field">
                 <input type="submit" name="submit" value="Register">

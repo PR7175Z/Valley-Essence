@@ -22,7 +22,7 @@
             </div>
             <div class="login-info">
                 <p>Don't Have an account? <a href="/phpsite/blogsite/register.php">Sign Up</a>.</p>
-                <p>Forgot <a href="#">Password</a>?</p>
+                <p>Forgot <a href="/phpsite/blogsite/forgotpassword.php">Password</a>?</p>
             </div>
             <div class="submit-field">
             <input type="submit" name="submit" value="Login">
