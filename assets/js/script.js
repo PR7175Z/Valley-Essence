@@ -14,13 +14,15 @@ jQuery(function ($) {
     }
 
     
-    var $grid = $('.isotope-item-wrapper').isotope({
-        itemSelector: '.isotope-item',
-        layoutMode: 'fitRows'
-    });
-    $('.isotope-tabs').on('click', 'button', function () {
-        var filterValue = $(this).attr('data-filter');
-        // use filterFn if matches value
-        $grid.isotope({ filter: filterValue });
-    });
+    if($('.isotope-item-wrapper').length > 0){
+        var $grid = $('.isotope-item-wrapper').isotope({
+            itemSelector: '.isotope-item',
+            layoutMode: 'masonry'
+        });
+        $('.isotope-tabs').on('click', 'button', function () {
+            var filterValue = $(this).attr('data-filter');
+            // use filterFn if matches value
+            $grid.isotope({ filter: filterValue });
+        });
+    }
 });
