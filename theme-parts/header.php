@@ -20,7 +20,7 @@ $userrole = $user['userrole'];
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-auto">
-                    <div class="site-logo
+                    <div class="site-logo">
                         <a href="<?php echo $_SERVER['REQUEST_URI']; ?>">
                             Valley Essence
                         </a>
@@ -43,7 +43,7 @@ $userrole = $user['userrole'];
                                     <a href="#">Gallery</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="primary-btn">COntact Us</a>
+                                    <a href="<?php echo SITEURL.'getintouch.php' ?>" class="primary-btn">COntact Us</a>
                                 </li>
                             </ul>
                         </nav>
