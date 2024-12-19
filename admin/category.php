@@ -12,7 +12,7 @@ if($categories){
     <div class="dashboard-head">
         <div class="mb-4 d-flex gap-5 align-items-center">
             <h2 class="mb-0">Categories</h2>
-            <a href="#" class="primary-btn">Add New Category</a>
+            <a href="#" class="dashboard-btn">Add New Category</a>
         </div>
     </div>
     <?php if($message){ ?>
