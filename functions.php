@@ -89,6 +89,22 @@ function get_blog_category($conn, $id){
     }
 }
 
+function get_blog_comments($conn, $id){
+    $sql = "SELECT * FROM comments WHERE blogid = ($id) and status = 1";
+    $res = mysqli_query($conn, $sql);
+
+    if($res){
+        $comments = [];
+        while ($row = mysqli_fetch_assoc($res)) {
+            $comments[] = $row; // Add each row to the comments array
+        }
+        return $comments;
+    }else {
+        // Return an error message or handle the error
+        return 'Query failed: ' . mysqli_error($conn);
+    }
+}
+
 function except($content, $limit=50){
     $excerpt = explode(' ', $content, $limit);
     if (count($excerpt)>=$limit) {
@@ -99,6 +115,12 @@ function except($content, $limit=50){
     }
     $excerpt = preg_replace('`\[[^\]]*\]`','',$excerpt);
     return $excerpt;
+}
+
+function changedateformat($currentdate, $format='d/m/Y'){
+    $timestamp = strtotime($currentdate);
+    $formattedDate = date($format, $timestamp);
+    return $formattedDate;
 }
 
 function session_message($message){

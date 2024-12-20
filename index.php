@@ -1,8 +1,6 @@
 <?php include('theme-parts/header.php');
 if(isset($_SESSION['logout_msg'])){
     echo '<div>' . $_SESSION['logout_msg'] . '</div>';
-}else{
-    echo '<div> not initialized</div>';
 }?>
 <section class="main-banner-section section-gaps">
     <div class="container">
