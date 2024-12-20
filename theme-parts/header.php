@@ -1,9 +1,13 @@
 <?php include('config/init.php');
 include('functions.php');
 
-$current_userid = $_SESSION['user_id'];
-$user = get_user($conn, $current_userid)[0];
-$userrole = $user['userrole'];
+$userrole = '';
+
+if($_SESSION['user_id']){
+    $current_userid = $_SESSION['user_id'];
+    $user = get_user($conn, $current_userid)[0];
+    $userrole = $user['userrole'];
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

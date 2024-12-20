@@ -5,7 +5,7 @@ parse_str($parts['query'], $query);
 $blog_id =  $query['id'];
 $blog = get_blogs($conn, $blog_id)[0];
 
-$comments = get_blog_comments($conn, $blog_id);
+$comments = get_blog_comments($conn, $blog_id, 1);
 
 $message = '';
 
@@ -28,7 +28,6 @@ if (isset($_POST['submit'])) {
     $stmt->bind_param("siisi", $cmt, $userid, $status, $publishedtime, $blogid);
 
     if ($stmt->execute()) {
-        echo 'check';
         $msg = "<div class='success'>Comment added successfully.</div>";
         session_message($msg);
     } else {
@@ -69,14 +68,6 @@ if (isset($_POST['submit'])) {
             echo $message; ?>
             <h3>Leave a Comment</h3>
             <form class="comment-form" method="post">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Your Name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Your Email" required>
-                </div>
                 <div class="form-group">
                     <label for="comment">Comment:</label>
                     <textarea id="comment" name="comment" rows="4" placeholder="Write your comment here..."
