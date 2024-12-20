@@ -9,7 +9,12 @@ $blogs = get_blogs($conn);
 if($blogs){
 ?>
 <section class="bloglisting mb-3">
-    <h2 class="mb-4">Your Blogs</h2>
+<div class="dashboard-head">
+        <div class="mb-4 d-flex gap-5 align-items-center">
+            <h2 class="mb-0">Posts</h2>
+            <a href="#" class="dashboard-btn">Add New Posts</a>
+        </div>
+    </div>
     <?php if($message){ ?>
     <div class="output-report-message">
         <p>
