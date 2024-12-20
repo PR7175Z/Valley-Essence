@@ -89,8 +89,16 @@ function get_blog_category($conn, $id){
     }
 }
 
-function get_blog_comments($conn, $id){
-    $sql = "SELECT * FROM comments WHERE blogid = ($id) and status = 1";
+function get_blog_comments($conn, $id= null, $status= null){
+    if($status == null && $id == null){
+        $sql = "SELECT * FROM comments";
+    }elseif($id == null){
+        $sql = "SELECT * FROM comments WHERE status = ($status)";
+    }elseif ($status == null) {
+        $sql = "SELECT * FROM comments WHERE blogid = ($id)";
+    }else{
+        $sql = "SELECT * FROM comments WHERE blogid = ($id) and status = ($status)";
+    }
     $res = mysqli_query($conn, $sql);
 
     if($res){
