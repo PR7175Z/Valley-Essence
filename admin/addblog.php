@@ -68,7 +68,6 @@ if ( isset( $_SESSION['message'] ) ) {
 </section>
 
 <?php
-
 date_default_timezone_set('Asia/Kathmandu');
 
 if (isset($_POST['submit'])) {
@@ -104,7 +103,6 @@ if (isset($_POST['submit'])) {
 
     $stmt->close();
 }
-
 ?>
 
 <?php include('theme-parts/footer.php') ?>
