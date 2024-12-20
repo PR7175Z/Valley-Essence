@@ -21,6 +21,9 @@
             </ul>
         </li>
         <li>
+            <a href="<?php echo SITEURL.'admin/comments.php'; ?>">Comments</a>
+        </li>
+        <li>
             <a href="<?php echo SITEURL.'admin/user.php'; ?>">Users</a>
         </li>
     </ul>
