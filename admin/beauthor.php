@@ -1,4 +1,30 @@
-<?php include('theme-parts/header.php');?>
+<?php include('theme-parts/header.php');
+$message='';
+if ( isset( $_SESSION['message'] ) ) {
+    $message = $_SESSION['message'];
+    kill_session();
+}
+
+if (isset($_POST['submit'])) {
+    $userid = $_SESSION['user_id'];
+
+    $stmt = $conn->prepare("UPDATE `userdata` SET status = ? WHERE id = ?");
+
+    $status = 1;
+
+    $stmt->bind_param("ii", $status, $userid);
+
+    if ($stmt->execute()) {
+        $msg = "<div class='success'>Blog added successfully.</div>";
+        session_message($msg);
+    } else {
+        $msg = "<div class='error'>Blog addition failed: " . $stmt->error . "</div>";
+        session_message($msg);
+    }
+
+    $stmt->close();
+}
+?>
 
 <div class="dashboard-acoount">
     <div class="dashboard-head">
@@ -6,18 +32,8 @@
         <p>Manage your general information, includinf phone number and email address where you can be contacted.</p>
     </div>
     <div class="dashboard-form-sty">
-        <form action="" id="becomeauthorform">
+        <form id="becomeauthorform" method="post">
             <div class="row">
-                <!-- Name -->
-                <div class="input-field">
-                    <input type="text" id="name" name="name" placeholder="Enter your full name" required disabled>
-                </div>
-
-                <!-- Email -->
-                <div class="input-field">
-                    <input type="email" id="email" name="email" placeholder="Enter your email address" required disabled>
-                </div>
-
                 <!-- Writing Experience -->
                 <div class="input-field">
                     <select id="experience" name="experience" required>
@@ -78,7 +94,7 @@
 
                 <!-- Submit Button -->
                 <div class="submit-field">
-                    <input type="submit" value="Submit Application">
+                    <input type="submit" name="submit" value="Submit Application">
                 </div>
 
             </div>
